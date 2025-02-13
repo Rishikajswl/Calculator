@@ -19,7 +19,7 @@ const Button = ({ label }) => {
     <button
       onClick={handleClick}
       className={`${
-        isDarkMode ? "bg-gray-600 hover:bg-gray-700" : "bg-gray-300 hover:bg-gray-400"
+        isDarkMode ? "bg-gray-600 hover:bg-gray-700" : "bg-gray-300 hover:bg-gray-900"
       } text-black p-4 text-xl rounded-md m-1 w-16 transition-all`}
     >
       {label}
