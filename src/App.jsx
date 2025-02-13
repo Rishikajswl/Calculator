@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div
       className={`min-h-screen flex flex-col items-center justify-center p-6 transition-all duration-500 ${
-        isDarkMode ? "bg-blue-100 text-white" : "bg-white text-black"
+        isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"
       }`}
     >
       {/* Header */}
